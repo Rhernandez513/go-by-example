@@ -12,6 +12,7 @@ func intSeq() func() int {
 	}
 }
 
+// https://en.wikipedia.org/wiki/Closure_(computer_programming)
 func main() {
 
 	nextInt := intSeq()
